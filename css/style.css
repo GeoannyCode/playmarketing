@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+header {
+  background: url(../../img/businessman-3213659_1920.jpg), #0f3057;
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #e7e7de;
+}
+
+header .contenedor_logo_menu {
+  padding: 15px 0;
+  border-bottom: 1px solid #e7e7de;
+}
+
+header .contenedor_logo_menu .logo a {
+  display: block;
+}
+
+header .contenedor_logo_menu .logo a img {
+  vertical-align: top;
+}
+
+header .contenedor_logo_menu .logo a h2 {
+  text-shadow: 2px 2px 8px #0f3057;
+}
+
+header .contenedor_logo_menu .menu {
+  text-align: right;
+  line-height: 50px;
+}
+
+header .contenedor_logo_menu .menu a {
+  color: #e7e7de;
+  margin-left: 60px;
+  font-size: 19px;
+  text-decoration: none;
+  border-bottom: 3px solid #f05454 none;
+}
+
+header .contenedor_logo_menu .menu a:hover {
+  border-bottom: 3px solid #f05454;
+}
+
+header .textos {
+  color: #fcf8ec;
+  text-align: center;
+  margin: 150px 0px;
+}
+
+header .textos .primera_linea {
+  font-size: 40px;
+  line-height: 35px;
+  margin-bottom: 50px;
+  text-shadow: 2px 2px 4px #0f3057;
+  font-weight: 700;
+}
+
+header .textos .segunda_linea {
+  font-size: 25px;
+  list-style: 35px;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px #0f3057;
+  font-weight: 500;
+}
+
+header .textos .tercera_linea {
+  font-size: 25px;
+  list-style: 35px;
+  margin-bottom: 50px;
+  text-shadow: 2px 2px 4px #0f3057;
+  font-weight: 400;
+}
+
+header .textos .contenedor-btns .btn-secondary {
+  background: #00587a;
+}
+
+header .textos .contenedor-btns .btn-secondary:hover {
+  background: #0f3057;
+}
+
+header .textos .contenedor-btns a {
+  color: #e7e7de;
+  text-decoration: none;
+}
+
+.main .caracteristicas {
+  padding: 70px 0px;
+}
+
+.main .caracteristicas .titulo {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 70px;
+  color: #008891;
+}
+
+.main .caracteristicas .caracteristica {
+  text-align: center;
+}
+
+.main .caracteristicas .caracteristica .icono {
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+
+.main .caracteristicas .caracteristica .primera_linea {
+  font-weight: 500;
+  color: #00587a;
+}
+
+.main .caracteristicas .caracteristica .parrafo {
+  margin-bottom: 30px;
+  line-height: 28px;
+  color: #0f3057;
+}
+
+.main .fotos {
+  padding: 50px 0px;
+  background: #0f3057;
+  margin-bottom: 70px;
+}
+
+.main .fotos .foto {
+  margin-bottom: 20px;
+}
+
+.main .fotos .foto .thumb img {
+  border-radius: 3px;
+  width: 100%;
+  vertical-align: top;
+}
+
+.main .fotos .foto .titulo {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.main .fotos .foto .titulo.azul {
+  color: #008891;
+  text-shadow: 2px 2px 4px black;
+}
+
+.main .fotos .foto .titulo.naranja {
+  color: #008891;
+  text-shadow: 2px 2px 4px black;
+}
+
+.main .fotos .foto .parrafo {
+  line-height: 28px;
+  color: #e7e7de;
+}
+
+.main .fotos .foto .derecha {
+  text-align: right;
+}
+
+.main .clientes {
+  margin-bottom: 70px;
+}
+
+.main .clientes .titulo {
+  text-align: center;
+  font-weight: 700;
+  color: #008891;
+  margin-bottom: 40px;
+}
+
+.main .clientes .cliente {
+  text-align: center;
+}
+
+.main .clientes .cliente a {
+  display: block;
+}
+
+.main .precios {
+  background: url("../../img/laptop-3317007_1920.jpg"), #e7e7de;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 70px 0px;
+}
+
+.main .precios .titulo {
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  background: rgba(231, 231, 222, 0.9);
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  color: #008891;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  padding: 10px 0px;
+}
+
+.main .precios .plan {
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  background: rgba(231, 231, 222, 0.9);
+  text-align: center;
+  padding: 50px 0px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+}
+
+.main .precios .plan .nombre {
+  color: #00587a;
+  font-size: 25px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.main .precios .plan .precio {
+  color: #008891;
+  font-weight: 300;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.main .precios .plan .caracteristicas {
+  font-weight: 500;
+  list-style: none;
+  padding: 0px 20px;
+  margin-bottom: 50px;
+}
+
+.main .precios .plan .caracteristicas li {
+  font-size: 18px;
+  padding: 15px 0px;
+  border-bottom: 1px solid #008891;
+}
+
+.main .precios .plan button {
+  background: none;
+  border: none;
+}
+
+.main .precios .plan button a {
+  background: #00af91;
+  color: white;
+}
+
+.main .precios .plan button a:hover {
+  background: #f58634;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+}
+/*# sourceMappingURL=style.css.map */
