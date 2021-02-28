@@ -13,18 +13,20 @@
     <link rel="icon" type="image/png" href="img/logotipo.png" sizes="32x32">
     <link rel="icon" type="image/png" href="img/logotipo.png" sizes="96x96">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/arriba.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
 </head>
 <body>
-    <header>
+    <header id="header">
         <div class="container">
             <div class="row contenedor_logo_menu">
                 <div class="logo col-xs-12 col-md-6">
                     <a href="#" style="text-decoration: none; color: #f05454;"><img src="img/logotipo.png" alt="" style="width: 50px;"><h2 style="display: inline;"> PlayMarketing</h2></a>
                 </div>
                 <div class="menu col-xs-12 col-md-6">
-                    <a href="#">Inicio</a>
-                    <a href="#">Precios</a>
-                    <a href="#">Contacto</a>
+                    <a href="#caracteristicas">Inicio</a>
+                    <a href="#precios">Precios</a>
+                    <a href="#direccion">Contacto</a>
                 </div>
             </div>
 
@@ -43,7 +45,7 @@
     </header>
 
     <section class="main">
-        <section class="caracteristicas">
+        <section id="caracteristicas" class="caracteristicas">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -70,6 +72,7 @@
                         <p class="parrafo">Proyectamos y planificamos todas tus ideas y metas de negocio.</p>
                     </div>
                 </div>
+                <a href="#header" class="up"><i class="fas fa-chevron-circle-up"></i></a>
             </div>
         </section>
 
@@ -116,23 +119,23 @@
 
                 <div class="row">
                     <div class="cliente col-xs-6 col-md-3">
-                        <a href="#"><img src="img/american-express-5388341_1280.png" alt="" style="width: 200px;"></a>
+                        <a href="#"><img src="img/american-express-5388341_1280.png" alt="" style="width: 180px;"></a>
                     </div>
                     <div class="cliente col-xs-6 col-md-3">
-                        <a href="#"><img src="img/allianz-5388417_1280.png" alt="" style="width: 200px;"></a>
+                        <a href="#"><img src="img/allianz-5388417_1280.png" alt="" style="width: 180px;"></a>
                     </div>
                     <div class="cliente col-xs-6 col-md-3">
-                        <a href="#"><img src="img/mcdonalds-5388324_1280.png" alt="" style="width: 200px;"></a>
+                        <a href="#"><img src="img/mcdonalds-5388324_1280.png" alt="" style="width: 180px;"></a>
                     </div>
                     <div class="cliente col-xs-6 col-md-3">
-                        <a href="#"><img src="img/nestle-5388410_1280.png" alt="" style="width: 200px;"></a>
+                        <a href="#"><img src="img/nestle-5388410_1280.png" alt="" style="width: 180px;"></a>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="precios">
-            <div class="container">
+            <div id="precios" class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <h3 class="titulo">Precios</h3>
@@ -196,12 +199,12 @@
                             <img src="img/model-5937809_1920.jpg" alt="" style="width: 200px;">
                         </div>
                         <div class="review">
-                            <p class="texto">"Gracias a este nuevo robot de cocina ahorro un montón de tiempo a la hora de hacer cremas y purés. Además me permite cocinar al mismo tiempo otros platos al vapor. Las legumbres quedan estupendas y en verano hago unos helados de padre y muy señor mío. Además se limpia de forma fácil y no consume mucha luz”</p>
+                            <p class="texto">"Gracias a este nuevo robot de cocina ahorro un montón de tiempo a la hora de hacer cremas y purés. Además me permite cocinar al mismo tiempo otros platos al vapor”</p>
                             <p class="nombre">- Carlos Arturo</p>
                         </div>
                     </div>
 
-                    <div class="col-md-12 cliente">
+                    <div class="col-md-12 cliente derecha">
                         <div class="foto">
                             <img src="img/woman-4820635_1920.jpg" alt="" style="width: 200px;">
                         </div>
@@ -209,22 +212,23 @@
                             <p class="texto">"Ignacio notó rápidamente las ineficiencias en la comunicación de su equipo con otros departamentos y creó un proceso que ahorró a su equipo varias horas de documentación adicional al día".</p>
                             <p class="nombre">- María Pérez</p>
                         </div>
+                        
                     </div>
                 </div>
             </div>
         </section>
     </section>
     <footer>
-        <div class="direccion">
+        <div id="direccion" class="direccion">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
                         <h4 class="titulo">Contacto</h4>
                         <p>AV. ANTONIO JOSÉ DE SUCRE Y N68-B </br>
                             CONJUNTO PARQUE CENTRAL OFICINA 107</p>
-                        <p class="correo">info @ marketindigital.com</p>
+                        <p class="correo">info @ playmarketing.com</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 logo">
                         <img src="img/logotipo.png" alt="" style="width: 60px;"> <h3 style="display: inline; color: #f05454;">PlayMarketing</h3>
                     </div>
                 </div>
