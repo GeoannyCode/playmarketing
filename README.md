@@ -5,9 +5,9 @@
 https://playmarketing.netlify.app
 
 ## Construido con 🛠️
-* [HTML]
-* [CSS]
-* [JavaScript]
+* HTML
+* CSS
+* JavaScript
 * [Bootstrap](https://developers.giphy.com/)
 
 ## Autor ✒️
