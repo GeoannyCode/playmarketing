@@ -1,5 +1,7 @@
 # playmarketing
 
+Pagina Web para empresa de marketing digital.
+
 ## Ver 🚀
 
 https://playmarketing.netlify.app
