@@ -10,17 +10,17 @@ https://playmarketing.netlify.app
 * HTML
 * CSS
 * JavaScript
-* [Bootstrap](https://developers.giphy.com/)
+* Bootstrap
 
 ## Autor ✒️
 
-* **Diego Bracero** - *Trabajo Inicial* - [dgbracero](https://github.com/dgbracero)
+* **geovanny** - *Trabajo Inicial* - [geovannydev](https://github.com/geovannydev)
 
 ## Expresiones de Gratitud 🎁
 
 * Comenta a otros sobre este proyecto 📢
-* Invitame una cerveza 🍺 o un café ☕ Paypal: diegobracero@yahoo.com. 
+* Invitame una cerveza 🍺 o un café ☕ Ko-fi: [geovannydev](https://ko-fi.com/geovannydev)
 
 ---
-⌨️ con ❤️ por [dgbracero](https://github.com/dgbracero) 😊
+⌨️ con ❤️ por [Geovanny](https://github.com/geovannydev) 😊
 
